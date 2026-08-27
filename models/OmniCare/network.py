@@ -276,7 +276,7 @@ class Network(nn.Module):
         self.omic_holder = MLP_Block(self.feat_dim, self.feat_dim)
 
         # Report representation using MLP
-        self.text_encoder, self.preprocess = create_model_from_pretrained('conch_ViT-B-16', "hf_hub:MahmoodLab/conch", hf_auth_token="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")
+        self.text_encoder, self.preprocess = create_model_from_pretrained('conch_ViT-B-16', "hf_hub:MahmoodLab/conch", hf_auth_token="Your token")
         self.text_snn = nn.Sequential(MLP_Block(512, self.feat_dim*2), MLP_Block(self.feat_dim*2, self.feat_dim))
         self.text_holder = MLP_Block(self.feat_dim, self.feat_dim)
         
