@@ -6,15 +6,15 @@ Source code for our paper "OmniCare: A multimodal framework bridging molecular, 
 The in-house data used in this study are not publicly available due to patient privacy protection requirements. Access to the private data can be granted upon reasonable request to the corresponding author, subject to a data usage agreement and institutional approval. 
 Publicly available datasets used in this study are accessible as follows. 
 
-TCGA data, including pathology images, demographics, mRNA expression profiles, and pathology reports, are available at [images](https://portal.gdc.cancer.gov), [demographics and genomics](https://www.cbioportal.org), and [reports](https://github.com/cpystan/Wsi-Caption), respectively. 
+--TCGA data, including pathology images, demographics, mRNA expression profiles, and pathology reports, are available at [images](https://portal.gdc.cancer.gov), [demographics and genomics](https://www.cbioportal.org), and [reports](https://github.com/cpystan/Wsi-Caption), respectively. 
 
-CPTAC data can be accessed at [here](https://portal.gdc.cancer.gov/projects/CPTAC-3). 
+--CPTAC data can be accessed at [here](https://portal.gdc.cancer.gov/projects/CPTAC-3). 
 
-The HistAI dataset is available at [here](https://www.hist.ai). 
+--The HistAI dataset is available at [here](https://www.hist.ai). 
 
-HANCOCK is accessible at [here](https://hancock.research.fau.eu). 
+--HANCOCK is accessible at [here](https://hancock.research.fau.eu). 
 
-SurGen is available at [here](https://github.com/CraigMyles/SurGen-Dataset).
+--SurGen is available at [here](https://github.com/CraigMyles/SurGen-Dataset).
 
 The software used for analysis include: 
 
