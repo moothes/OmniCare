@@ -14,7 +14,6 @@ Step 2: Runing the following code:
 ```python
 python finetune.py OmniCare --cohort=[cohort_task]
 ```
-```cohort_task``` should one of the folder name in ```./downstream```. 
 
 ```Cohort``` and ```task``` indicate the cohort name and specific endpoint, such as overall survival (OS), disease-free survival (DFS, recurrence), metastasis detection (MD).
 
