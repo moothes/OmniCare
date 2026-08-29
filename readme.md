@@ -4,6 +4,7 @@ Source code for our paper "OmniCare: A multimodal framework bridging molecular, 
 
 ## Preparing data
 
+### Data source
 --TCGA data, including pathology images, demographics, mRNA expression profiles, and pathology reports, are available at [images](https://portal.gdc.cancer.gov), [demographics and genomics](https://www.cbioportal.org), and [reports](https://github.com/cpystan/Wsi-Caption), respectively. 
 
 --CPTAC data can be accessed at [here](https://portal.gdc.cancer.gov/projects/CPTAC-3). 
@@ -14,7 +15,7 @@ Source code for our paper "OmniCare: A multimodal framework bridging molecular, 
 
 --SurGen is available at [here](https://github.com/CraigMyles/SurGen-Dataset).
 
-The software used for analysis include: 
+### Software
 
 --DeepSeek-Chat from [here](https://www.deepseek.com) 
 
