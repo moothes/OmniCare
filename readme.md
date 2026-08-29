@@ -3,8 +3,6 @@
 Source code for our paper "OmniCare: A multimodal framework bridging molecular, tissue, and clinical data for generalizable cancer outcome prediction".
 
 ## Preparing data
-The in-house data used in this study are not publicly available due to patient privacy protection requirements. Access to the private data can be granted upon reasonable request to the corresponding author, subject to a data usage agreement and institutional approval. 
-Publicly available datasets used in this study are accessible as follows. 
 
 --TCGA data, including pathology images, demographics, mRNA expression profiles, and pathology reports, are available at [images](https://portal.gdc.cancer.gov), [demographics and genomics](https://www.cbioportal.org), and [reports](https://github.com/cpystan/Wsi-Caption), respectively. 
 
