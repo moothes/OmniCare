@@ -5,11 +5,12 @@ Source code for our paper "OmniCare: A multimodal framework bridging molecular, 
 ## Reproducing process for reviewers
 To ensure the reproducibility of our work and facilitate the validation process for reviewers, we provide a dedicated guide in this README for verifying the OmniCare model. To minimize the overhead associated with data preprocessing, we also release the pre-extracted features of our private cohorts, allowing reviewers to directly focus on model evaluation.
 
-1. Downloading the extracted features from downstream cohorts, including pathology images, pathology reports, demographics, and genomics data at [Coming soon](https://github.com).
-Downloading the [pretrained weights of OmniCare](https://drive.google.com/file/d/1dB0EKSvyn3WNSAVgfksO8oFQydK2NPIZ/view?usp=sharing).
-Then, putting the downloaded file at the root path of this project like ```./downstream/[cohort_task]```.
+Step 1: Download prerequisite data
+Extracted features for downstream cohorts are available at [Coming soon](https://github.com).
+Pretrained OmniCare weights are available at [pretrained weights](https://drive.google.com/file/d/1dB0EKSvyn3WNSAVgfksO8oFQydK2NPIZ/view?usp=sharing).
+Place all downloaded files into the corresponding cohort task folder under the project root like ```./downstream/[cohort_task]```.
 
-2. Runing the following code:
+3. Runing the following code:
 ```python
 python finetune.py OmniCare --cohort=[cohort_task]
 ```
