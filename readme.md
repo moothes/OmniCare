@@ -8,7 +8,7 @@ To ensure the reproducibility of our work and facilitate the validation process 
 Step 1: Download prerequisite data
 Extracted features for downstream cohorts are available at [Coming soon](https://github.com).
 Pretrained OmniCare weights are available at [pretrained weights](https://drive.google.com/file/d/1dB0EKSvyn3WNSAVgfksO8oFQydK2NPIZ/view?usp=sharing).
-Place all downloaded files into the corresponding cohort task folder under the project root like ```./downstream/[cohort_task]```.
+Place all downloaded files into the corresponding cohort task folder under the project root like ```./downstream/[cohort_task]/[cohort_task].csv```.
 
 Step 2: Runing the following code:
 ```python
