@@ -10,7 +10,7 @@ Extracted features for downstream cohorts are available at [Coming soon](https:/
 Pretrained OmniCare weights are available at [pretrained weights](https://drive.google.com/file/d/1dB0EKSvyn3WNSAVgfksO8oFQydK2NPIZ/view?usp=sharing).
 Place all downloaded files into the corresponding cohort task folder under the project root like ```./downstream/[cohort_task]```.
 
-3. Runing the following code:
+Step 2: Runing the following code:
 ```python
 python finetune.py OmniCare --cohort=[cohort_task]
 ```
@@ -18,7 +18,7 @@ python finetune.py OmniCare --cohort=[cohort_task]
 
 ```Cohort``` and ```task``` indicate the cohort name and specific endpoint, such as overall survival (OS), disease-free survival (DFS, recurrence), metastasis detection (MD).
 
-3. The results will be saved under ```./results/OmniCare/finetune/```
+Step 3: The results will be saved under ```./results/OmniCare/finetune/```
 
 ## Preparing data and software
 
